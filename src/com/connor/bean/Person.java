@@ -4,6 +4,15 @@ public class Person {
 
     private String name;
     private Integer age;
+    private Double score;
+
+    public Double getScore() {
+        return score;
+    }
+
+    public void setScore(Double score) {
+        this.score = score;
+    }
 
     public Person() {
     }
